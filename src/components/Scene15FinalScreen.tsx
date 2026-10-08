@@ -49,7 +49,7 @@ export const Scene15FinalScreen: React.FC<Scene15Props> = ({
           }}
         >
           <img
-            src="/src/assets/images/hab_al_hail_gold_bangles_1791448128996.jpg"
+            src="/images/hab_al_hail_gold_bangles_1791448128996.jpg"
             alt="Signature 21K Gold Bangle"
             referrerPolicy="no-referrer"
             className="max-h-[260px] w-auto object-contain rounded-sm drop-shadow-[0_20px_50px_rgba(180,134,40,0.4)]"

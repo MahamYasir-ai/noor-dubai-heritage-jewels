@@ -62,7 +62,7 @@ export const Scene11Generations: React.FC<Scene11Props> = ({ lang }) => {
           {/* Image of Three Generations Hands Passing Jewelry (Used only once) */}
           <div className="lg:col-span-7 relative h-[420px] sm:h-[480px] rounded-md overflow-hidden border border-[#D4AF37]/40 shadow-md">
             <img
-              src="/src/assets/images/generations_heirloom_hands_1791446552361.jpg"
+              src="/images/generations_heirloom_hands_1791446552361.jpg"
               alt="Three generations of Middle Eastern women hands holding heirloom jewelry"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

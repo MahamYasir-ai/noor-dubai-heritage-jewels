@@ -72,7 +72,7 @@ export const Scene4EditorialWoman: React.FC<Scene4Props> = ({
             <div className="relative w-full h-[520px] sm:h-[620px] rounded-md overflow-hidden border-2 border-[#D4AF37]/50 bg-[#FFFDF9] shadow-[0_25px_60px_rgba(180,134,40,0.2)]">
               
               <img
-                src="/src/assets/images/editorial_woman_couture_1791446488324.jpg"
+                src="/images/editorial_woman_couture_1791446488324.jpg"
                 alt="Middle Eastern luxury high jewelry editorial model"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-1000 ease-out"

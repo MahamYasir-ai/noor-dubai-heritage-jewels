@@ -22,11 +22,11 @@ export const Scene10BespokeAtelier: React.FC<Scene10Props> = ({ lang, currency, 
 
   // Real photographic assets for bespoke previews
   const formImages = {
-    necklace: '/src/assets/images/traditional_mirtasha_necklace_1791449330760.jpg',
-    bangle: '/src/assets/images/hab_al_hail_gold_bangles_1791448128996.jpg',
-    belt: '/src/assets/images/traditional_gold_bridal_belt_1791449344047.jpg',
-    earrings: '/src/assets/images/heavy_jomoor_gold_earrings_1791449356521.jpg',
-    rings: '/src/assets/images/traditional_marami_rings_1791449366768.jpg'
+    necklace: '/images/traditional_mirtasha_necklace_1791449330760.jpg',
+    bangle: '/images/hab_al_hail_gold_bangles_1791448128996.jpg',
+    belt: '/images/traditional_gold_bridal_belt_1791449344047.jpg',
+    earrings: '/images/heavy_jomoor_gold_earrings_1791449356521.jpg',
+    rings: '/images/traditional_marami_rings_1791449366768.jpg'
   };
 
   const basePrices: Record<string, number> = {

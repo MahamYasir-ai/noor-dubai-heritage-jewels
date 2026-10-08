@@ -69,7 +69,7 @@ export const Scene12Craftsmanship: React.FC<Scene12Props> = ({ lang }) => {
           {/* Macro Image */}
           <div className="lg:col-span-7 relative h-[420px] sm:h-[480px] rounded-md overflow-hidden border border-[#D4AF37]/40 shadow-md">
             <img
-              src="/src/assets/images/craftsmanship_atelier_macro_1791446524112.jpg"
+              src="/images/craftsmanship_atelier_macro_1791446524112.jpg"
               alt="Artisan jeweler setting diamonds in gold ring"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

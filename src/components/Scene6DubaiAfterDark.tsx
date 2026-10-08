@@ -35,7 +35,7 @@ export const Scene6DubaiAfterDark: React.FC<Scene6Props> = ({
       {/* Background with warm overlay */}
       <div className="absolute inset-0 pointer-events-none">
         <img
-          src="/src/assets/images/dubai_night_palace_vault_1791446538242.jpg"
+          src="/images/dubai_night_palace_vault_1791446538242.jpg"
           alt="Dubai at night luxury palace background"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover opacity-20 filter brightness-110"

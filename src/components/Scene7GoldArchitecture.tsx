@@ -26,7 +26,7 @@ export const Scene7GoldArchitecture: React.FC<Scene7Props> = ({
       titleAr: 'طوق المرتعشة الإماراتية التراثية الكبرى',
       descEn: 'Articulated cascading gold coin drops with hand-filigree medallions forging the quintessential royal bride parure.',
       descAr: 'طبقات متتالية من الذهب الخالص عيار ٢١ والليرات واللؤلؤ تعزف ألحان الهيبة في ليلة الزفاف.',
-      image: '/src/assets/images/traditional_mirtasha_necklace_1791449330760.jpg',
+      image: '/images/traditional_mirtasha_necklace_1791449330760.jpg',
       productId: 'vault-mirtasha-bib'
     },
     {
@@ -34,7 +34,7 @@ export const Scene7GoldArchitecture: React.FC<Scene7Props> = ({
       titleAr: 'أساور حب الهيل التراثية الخالصة',
       descEn: 'Carved solid 21K gold with heritage beaded granulation celebrating Emirati generosity.',
       descAr: 'ذهب أصفر عيار ٢١ منحوت بنقش حب الهيل التراثي الذي يرمز للضيافة والعروبة الأصيلة.',
-      image: '/src/assets/images/hab_al_hail_gold_bangles_1791448128996.jpg',
+      image: '/images/hab_al_hail_gold_bangles_1791448128996.jpg',
       productId: 'vault-hab-al-hail'
     },
     {
@@ -42,7 +42,7 @@ export const Scene7GoldArchitecture: React.FC<Scene7Props> = ({
       titleAr: 'حزام الذهب الملكي التراثي للعروس',
       descEn: 'Monumental ceremonial bridal belt of twenty-four articulated geometric gold plaques with coin fringes.',
       descAr: 'حزام ذهبي احتفالي مهيب من صفائح الذهب عيار ٢١ مع إبزيم ملكي وشراشيب ذهبية رنانة.',
-      image: '/src/assets/images/traditional_gold_bridal_belt_1791449344047.jpg',
+      image: '/images/traditional_gold_bridal_belt_1791449344047.jpg',
       productId: 'vault-bridal-hizam'
     },
     {
@@ -50,7 +50,7 @@ export const Scene7GoldArchitecture: React.FC<Scene7Props> = ({
       titleAr: 'أقراط الجمور التراثية المتدلية الكبرى',
       descEn: 'Traditional tiered bell earrings echoing Arabian palace architecture, suspended with micro-seed Basra pearls.',
       descAr: 'أقراط تراثية بتصميم الجمور الخليجي تتهادى بنعومة فائقة حول الوجه مع حبات اللؤلؤ الطبيعي والأجراس المفرغة.',
-      image: '/src/assets/images/heavy_jomoor_gold_earrings_1791449356521.jpg',
+      image: '/images/heavy_jomoor_gold_earrings_1791449356521.jpg',
       productId: 'vault-jomoor-earrings'
     },
     {
@@ -58,7 +58,7 @@ export const Scene7GoldArchitecture: React.FC<Scene7Props> = ({
       titleAr: 'طوق الطبلة بلؤلؤ البصرة الطبيعي',
       descEn: 'Nine lustrous strands of natural saltwater Basra pearls gathered by a heavy hand-chiseled 21K gold Tablah amulet.',
       descAr: 'تسعة صفوف متناسقة من لؤلؤ البصرة الطبيعي النادر تجمعها تميمة الطبلة التراثية المنحوتة من الذهب الخالص.',
-      image: '/src/assets/images/royal_tablah_pearl_choker_1791449378122.jpg',
+      image: '/images/royal_tablah_pearl_choker_1791449378122.jpg',
       productId: 'vault-tablah-choker'
     }
   ];
