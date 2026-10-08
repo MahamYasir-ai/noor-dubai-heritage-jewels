@@ -1,0 +1,8 @@
+{
+  "name": "NOOR DUBAI | دار نور دبي",
+  "description": "Exclusive Emirati high-jewelry maison crafting traditional 21K gold, bridal parures, Mirtasha necklaces, Hab Al Hail bangles, and royal heirlooms in Dubai, Abu Dhabi, and the GCC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

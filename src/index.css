@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-arabic: 'Noto Naskh Arabic', 'Amiri', serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF4EB;
+    color: #2D1D13;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-serif);
+  }
+
+  .font-display-royal {
+    font-family: var(--font-display);
+  }
+
+  [dir="rtl"] {
+    font-family: var(--font-arabic);
+  }
+
+  [dir="rtl"] .font-serif-luxury,
+  [dir="rtl"] .font-display-royal {
+    font-family: var(--font-arabic);
+    letter-spacing: 0 !important;
+  }
+}
+
+/* Custom Luxury Gradients & Shimmer */
+.gold-shimmer {
+  background: linear-gradient(
+    110deg,
+    #9c6f1a 0%,
+    #e8c879 25%,
+    #b48628 50%,
+    #f3e5ab 75%,
+    #885e12 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 6s linear infinite;
+}
+
+.peach-royal-bg {
+  background: radial-gradient(circle at 50% 30%, #FFF8EF 0%, #F8EFE2 50%, #F2E3D0 100%);
+}
+
+.peach-card-bg {
+  background: #FFFDF9;
+  border: 1px solid rgba(180, 134, 40, 0.28);
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.8deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 7s ease-in-out infinite;
+}
+
+/* Custom Scrollbar for Luxury Aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EADB;
+}
+::-webkit-scrollbar-thumb {
+  background: #CDB38B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B48628;
+}
