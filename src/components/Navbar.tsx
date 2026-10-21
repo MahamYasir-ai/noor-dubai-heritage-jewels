@@ -51,10 +51,11 @@ export const Navbar: React.FC<NavbarProps> = ({
     { label: isAr ? 'المجوهرات الخاصة' : 'Bespoke Heirloom', href: '#bespoke' },
     { label: isAr ? 'الحرفية والتراث' : 'Craft & Heritage', href: '#craftsmanship' },
     { label: isAr ? 'الصالون الخاص' : 'Private Salons', href: '#salons' },
+    { label: isAr ? 'آراء العملاء' : 'Royal Reviews', href: '#reviews' },
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#FAF4EB]/95 backdrop-blur-md border-b border-[#D4AF37]/35 transition-all shadow-md">
+    <header className="relative w-full z-40 bg-[#FAF4EB] border-b border-[#D4AF37]/35 shadow-sm transition-all">
       
       {/* LIVE DUBAI GOLD RATES & MOVING AD MARQUEE */}
       <GoldRateTicker lang={lang} currency={currency} />

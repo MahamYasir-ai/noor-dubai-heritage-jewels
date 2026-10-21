@@ -21,7 +21,8 @@ import { Scene15FinalScreen } from './components/Scene15FinalScreen';
 import { CartDrawer } from './components/CartDrawer';
 import { WishlistDrawer } from './components/WishlistDrawer';
 import { PrivateViewingModal } from './components/PrivateViewingModal';
-import { RoyalReviewsPopup } from './components/RoyalReviewsPopup';
+import { RoyalReviewsSection } from './components/RoyalReviewsSection';
+import { WhatsAppChatWidget } from './components/WhatsAppChatWidget';
 import { RoyalVoiceConcierge } from './components/RoyalVoiceConcierge';
 
 export default function App() {
@@ -248,6 +249,11 @@ export default function App() {
         onOpenBooking={() => setBookingOpen(true)}
       />
 
+      {/* ROYAL VIP CLIENT REVIEWS & VERIFIED ACQUISITIONS SECTION */}
+      <RoyalReviewsSection
+        lang={lang}
+      />
+
       {/* SCENE 15 — FINAL SCREEN & BRAND FOOTER */}
       <Scene15FinalScreen
         lang={lang}
@@ -300,12 +306,12 @@ export default function App() {
         lang={lang}
       />
 
-      {/* ROYAL VIP CLIENT REVIEWS POPUP (Pops up automatically as user scrolls down) */}
-      <RoyalReviewsPopup
+      {/* WHATSAPP VIP CONCIERGE & CHAT SUPPORT (Floating at bottom-right for orders, consultations & complaints) */}
+      <WhatsAppChatWidget
         lang={lang}
       />
 
-      {/* ROYAL VOICE CONCIERGE (Aristocratic voice narrator with majestic court tone) */}
+      {/* ROYAL VOICE CONCIERGE (Aristocratic voice narrator with majestic court tone - bottom-left) */}
       <RoyalVoiceConcierge
         lang={lang}
       />

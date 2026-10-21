@@ -92,9 +92,10 @@ export const Scene14PrivateClient: React.FC<Scene14Props> = ({ lang, onOpenBooki
             </button>
             <button
               onClick={onOpenBooking}
-              className="w-full sm:w-auto px-6 py-3.5 text-xs font-bold tracking-[0.2em] uppercase text-[#8C6418] border border-[#D4AF37]/60 hover:bg-[#F3E5D2] rounded-sm transition-all whitespace-nowrap cursor-pointer"
+              className="w-full sm:w-auto px-5 py-3.5 text-xs font-bold tracking-[0.15em] uppercase text-[#1B4D2B] bg-[#E8F8EE] border border-[#25D366]/50 hover:bg-[#D5F2E0] rounded-sm transition-all whitespace-nowrap cursor-pointer flex items-center justify-center gap-2"
             >
-              {isAr ? 'طلب استشارة هاتفية' : 'REQUEST A CONSULTATION'}
+              <MessageSquare className="w-3.5 h-3.5 text-[#25D366]" />
+              <span>{isAr ? 'استشارة واتساب (+92 336 6551688)' : 'WHATSAPP CONCIERGE (+92 336 6551688)'}</span>
             </button>
           </div>
         </div>

@@ -49,7 +49,7 @@ export const Scene1HeroBox: React.FC<Scene1Props> = ({
   };
 
   return (
-    <section className="relative min-h-screen w-full flex flex-col items-center justify-center bg-gradient-to-b from-[#FAF4EB] via-[#F6ECE0] to-[#EFE2D2] overflow-hidden select-none px-4 pt-28 pb-16 text-[#24170D]">
+    <section className="relative min-h-[calc(100vh-80px)] w-full flex flex-col items-center justify-center bg-gradient-to-b from-[#FAF4EB] via-[#F6ECE0] to-[#EFE2D2] overflow-hidden select-none px-4 py-10 sm:py-16 text-[#24170D]">
       
       {/* Moving Golden Sunbeam & Lens Flare */}
       <div
