@@ -1,94 +1,86 @@
-# NOOR DUBAI | دار نور دبي 
-### Haute Joaillerie & Traditional Emirati Gold Maison
+# Noor Dubai Heritage Jewels
 
-An opulent, cinematic e-commerce and royal digital atelier crafted for **NOOR DUBAI (دار نور دبي)** — showcasing pure traditional 21K & 22K Emirati gold bridal parures, heritage Mirtasha bib necklaces, Hab Al Hail bangles, Shanaf chandelier earrings, and royal heirloom jewelry.
+**Sovereign Middle Eastern High Jewelry**
 
-Designed in a warm champagne peach & beige luxury aesthetic with live GCC currency conversion, live gold tickers, interactive velvet presentation box, scrolling client reviews, and an English/Arabic Royal Voice Concierge.
+A luxury jewellery showcase inspired by Emirati heritage, traditional Gulf adornment, and the timeless elegance of Middle Eastern high jewelry.
 
----
-
-## Features & Highlights
-
-- **Traditional & Bridal Fine Jewelry Catalog**: Over 20+ authentic high-jewelry sets, heavy 21K bridal parures, Rani Haar necklaces, Khaleeji Hezam waistbands, Polki diamond chokers, Basra pearl strings, and Ghulwa bangles with zero repeated images.
-- **Interactive 3D Velvet Jewelry Box**: An opening velvet jewelry presentation case with cinematic velvet depth, realistic shine animations, and rotating pedestal views.
-- **Real-Time GCC & International Currency Converter**: Live multi-currency conversion supporting AED (د.إ), SAR (ر.س), QAR (ر.ق), KWD (د.ك), OMR (ر.ع), BHD (د.ب), USD ($), EUR (€), and GBP (£).
-- **Live Dubai Gold Souk Rates**: Real-time moving market ticker with 24K, 22K, 21K, and 18K gold rates per gram.
-- **Royal Voice Concierge**: Aristocratic English and Classical Arabic audio concierge narrating the heritage of NOOR DUBAI.
-- **Spotlight & Shimmer Effects**: Dynamic light sweeps over bestsellers and bridal vault pieces as the user scrolls.
-- **Scrolling Royal Reviews Popup**: Client testimonials from Dubai, Abu Dhabi, Riyadh, and Doha that gracefully appear as you explore the collections.
-- **Dual Language Support**: Complete English & Classical Arabic (العربية) with instant RTL/LTR switching and tailored typography.
-- **Private Atelier & VIP Services**: Concierge viewing booking, bespoke commission requests, cart drawer, and wishlist management.
+[**Live Demo**](https://noor-dubai-heritage-jewels.vercel.app/) · [**GitHub Repository**](https://github.com/MahamYasir-ai/noor-dubai-heritage-jewels)
 
 ---
 
-## Tech Stack
+## Overview
 
-- **Framework**: React 19 + TypeScript
-- **Bundler & Tooling**: Vite 8
-- **Styling**: Tailwind CSS v4
-- **Animation**: Motion (Framer Motion)
-- **Icons**: Lucide React
-- **Audio & Voice**: Web Speech Synthesis API & Web Audio Synthesizer
+Noor Dubai Heritage Jewels presents an elevated digital experience inspired by the artistry, symbolism, and cultural legacy of traditional Middle Eastern jewellery.
 
----
+The concept brings together elaborate Emirati Mirtasha bib necklaces, Hab Al Hail bangles, luminous Basra pearls, and bespoke royal commissions in a refined luxury setting. Its visual identity celebrates the richness of Gulf heritage while presenting traditional jewellery through a contemporary digital storefront.
+
+## Highlights
+
+- **Emirati Heritage** — Inspired by traditional Gulf jewellery, ceremonial adornment, and regional craftsmanship.
+- **Mirtasha Necklaces** — Showcasing the grandeur of traditional bib-style jewellery.
+- **Hab Al Hail Bangles** — Highlighting distinctive traditional bangle designs.
+- **Basra Pearls** — Celebrating the elegance and historical significance of regional pearl traditions.
+- **Bespoke Commissions** — A concept for exclusive, individually envisioned statement pieces.
+- **Luxury Visual Experience** — A premium presentation designed around heritage, detail, and sophistication.
+- **Responsive Design** — Intended to provide a polished browsing experience across desktop and mobile devices.
+
+*The features and collections described above reflect the project's design concept. Interactive functionality depends on the implementation in the live application.*
+
+## Live Preview
+
+Explore the deployed website:
+
+**[noor-dubai-heritage-jewels.vercel.app](https://noor-dubai-heritage-jewels.vercel.app/)**
+
+<!-- Add screenshots here after uploading them to assets/screenshots/ -->
+
+## Technology Stack
+
+The technologies used in this project can be confirmed from the repository's source files and `package.json`.
+
+- Frontend: To be confirmed from the project configuration
+- Styling: To be confirmed from the project configuration
+- Deployment: Vercel
 
 ## Getting Started
 
-### 1. Clone the repository
+To run the project locally, first clone the repository:
+
 ```bash
-git clone https://github.com/YOUR_USERNAME/noor-dubai-jewelry.git
-cd noor-dubai-jewelry
+git clone https://github.com/MahamYasir-ai/noor-dubai-heritage-jewels.git
+cd noor-dubai-heritage-jewels
 ```
 
-### 2. Install dependencies
+Install dependencies:
+
 ```bash
 npm install
-# or
-bun install
 ```
 
-### 3. Start development server
+Start the development server:
+
 ```bash
 npm run dev
 ```
-Open `http://localhost:3000` in your browser.
 
-### 4. Build for production
-```bash
-npm run build
-```
+Open the local URL displayed in your terminal.
 
----
+**Requirements:** Node.js and npm, assuming the repository uses a Node.js-based frontend framework.
 
-## Project Structure
+## Project Purpose
 
-```
-├── public/                 # Static assets
-├── src/
-│   ├── assets/images/      # Authentic gold jewelry photography & editorial images
-│   ├── components/         # Modular React components
-│   │   ├── Navbar.tsx             # Navigation with currency & language switcher
-│   │   ├── GoldRateTicker.tsx     # Live Dubai Gold Souk rates marquee
-│   │   ├── Scene1HeroBox.tsx      # Opening luxury velvet box experience
-│   │   ├── Scene8Collections.tsx  # Traditional bridal & heirloom catalog
-│   │   ├── RoyalReviewsPopup.tsx  # Dynamic client reviews on scroll
-│   │   ├── RoyalVoiceConcierge.tsx# Royal audio concierge
-│   │   ├── CartDrawer.tsx         # Shopping bag drawer
-│   │   └── ...
-│   ├── data/
-│   │   └── products.ts     # Complete 21+ item gold catalog & currency rates
-│   ├── types/              # TypeScript interfaces
-│   ├── utils/              # Audio & voice utilities
-│   ├── App.tsx             # Root application orchestrator
-│   └── main.tsx            # Application entry point
-├── metadata.json           # AI Studio applet configuration
-├── index.html              # HTML5 entry with luxury typography
-└── package.json            # Project dependencies & scripts
-```
+Noor Dubai Heritage Jewels is a web development portfolio project exploring how cultural heritage, luxury brand positioning, and contemporary interface design can come together in a premium jewellery experience.
+
+The project demonstrates an approach to creating a distinctive digital brand identity inspired by traditional craftsmanship and the heritage of the Gulf region.
+
+## Author
+
+**Maham Yasir**
+
+Electronics Engineer | AI & Technology Projects
+
+- GitHub: [@MahamYasir-ai](https://github.com/MahamYasir-ai)
 
 ---
 
-## License & Maison Rights
-
-All design assets, jewelry imagery, and branding are curated for **NOOR DUBAI (دار نور دبي)**.
-All rights reserved © 2026.
+*Inspired by the enduring artistry and heritage of Middle Eastern high jewelry.*
