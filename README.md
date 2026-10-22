@@ -1,4 +1,12 @@
-# Noor Dubai Heritage Jewels
+<p align="center">
+  <img src="assets/banner.png" alt="Noor Dubai Heritage Jewels" width="100%">
+</p>
+
+<h1 align="center">Noor Dubai Heritage Jewels</h1>
+
+<p align="center">
+  <em>Timeless Traditions. Eternal Elegance.</em>
+</p>
 
 **Sovereign Middle Eastern High Jewelry**
 
